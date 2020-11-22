@@ -1,0 +1,65 @@
+.page-title{
+    font: normal 72px/94px "DM Sans";
+    color: #D5AC4E;
+    text-align: center;
+    padding-top: 86px;
+}
+
+.overview{
+    font: normal 24px/32px "Poppins";
+    color: #638898;
+    padding-bottom: 172px;
+}
+
+.overview-titles{
+    font: bold 24px/32px "DM Sans";
+}
+
+.prob-sol{
+    font: normal 24px/32px "Poppins";
+    color: #2F2F2F;
+    padding-bottom: 172px;
+}
+
+.prob-sol-titles{
+    font: bold 24px/32px "DM Sans";
+    color: #FE938C;
+}
+
+.role{
+    text-align: center;
+}
+
+.process-header{
+    border-color: #638898;
+    background-color: #638898;
+    align-items: center;
+    font: bold 24px/32px "DM Sans";
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.process-text{
+    font: normal 24px/36px "Poppins";
+    color: #2F2F2F;
+    padding-top: 20px;
+}
+
+.process-titles{
+    font-weight: bold;
+    color: #D5AC4E;
+}
+
+.center{
+    text-align: center;
+}
+
+.research-text{
+    font: normal 24px/36px "Poppins";
+    color: #638898;
+    padding-bottom: 72px;
+}
+
+.research-text{
+    font-weight: bold;
+}
