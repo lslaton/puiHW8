@@ -1,0 +1,82 @@
+html, body{
+    width: 100% !important;
+    height: 100% !important;
+    padding:0;
+    position: relative;
+}
+
+.navbar{
+    background-color: #2F2F2F;
+}
+
+.navbar-brand{
+    font: normal 36px/47px "DM Sans";
+    color: #638898;
+}
+
+.navbar-brand:hover{
+    color: #FE938C;
+}
+
+.navbar-nav{
+    align-content: flex-end;
+}
+
+.nav-item{
+    font: normal 24px/31px "DM Sans";
+    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-item:hover{
+    color: #FE938C;
+}
+
+.active{
+    color: #D5AC4E;
+}
+
+/*Source: https://forum.freecodecamp.org/t/solved-why-is-my-navbar-covering-next-section-container/97897 */
+.intro{
+    padding-top: 173px;
+    padding-bottom: 172px;
+    text-align: center;
+    font: normal 48px/62px "DM Sans";
+    color: #FE938C;
+}
+
+#projects{
+    font: normal 36px/47px "DM Sans";
+    color: #D5AC4E;
+    text-align: center;
+}
+
+.work-box{
+    background-color: #638898;
+    border-color: #638898;
+}
+
+.work-image{
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.work-text{
+    font: normal 36px/47px "DM Sans";
+    color: #FFFFFF;
+    position: relative;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+    width: 345px;
+}
+
+.footer{
+    background-color: #D5AC4E;
+    border-color: #D5AC4E;
+    position: relative;
+    display: block;
+    margin: auto;
+}
