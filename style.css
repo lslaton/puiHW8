@@ -58,15 +58,16 @@ html, body{
 }
 
 .work-image{
-    position: relative;
+    /*position: relative;*/
     display: block;
     margin: auto;
+    padding-top: 36px;
 }
 
 .work-text{
     font: normal 36px/47px "DM Sans";
     color: #FFFFFF;
-    position: relative;
+    display: block;
     justify-content: center;
     vertical-align: center;
     text-align: center;
