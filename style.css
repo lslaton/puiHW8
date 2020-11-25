@@ -62,6 +62,11 @@ html, body{
     height: 324px;
 }
 
+.work-box:hover{
+    background-color: #D5AC4E;
+    border-color: #D5AC4E;
+}
+
 .work-image{
     position: absolute;
     width: 345px;
@@ -77,6 +82,11 @@ html, body{
     align-items: center;
     text-align: center;
     width: 345px;
+    opacity: 0;
+}
+
+.work-text:hover{
+    opacity: 1;
 }
 
 .white{
