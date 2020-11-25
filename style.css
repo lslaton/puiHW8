@@ -5,6 +5,10 @@ html, body{
     position: relative;
 }
 
+.row{
+    padding: 10px;
+}
+
 .navbar{
     background-color: #2F2F2F;
 }
@@ -55,23 +59,28 @@ html, body{
 .work-box{
     background-color: #638898;
     border-color: #638898;
+    height: 324px;
 }
 
 .work-image{
-    /*position: relative;*/
-    display: block;
-    margin: auto;
-    padding-top: 36px;
+    position: absolute;
+    width: 345px;
+    height: 152px;
 }
 
 .work-text{
     font: normal 36px/47px "DM Sans";
-    color: #FFFFFF;
-    display: block;
+    color: #2F2F2F;
+    position: relative;
+    display: flex;
     justify-content: center;
-    vertical-align: center;
+    align-items: center;
     text-align: center;
     width: 345px;
+}
+
+.white{
+    color: #FFFFFF;
 }
 
 .footer{
