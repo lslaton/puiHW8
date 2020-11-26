@@ -1,3 +1,6 @@
+/* || PROJECT PAGES || */
+
+/* Page Title */
 .page-title{
     font: normal 72px/94px "DM Sans";
     color: #D5AC4E;
@@ -5,29 +8,40 @@
     padding-top: 86px;
 }
 
+/* || OVERVIEW SECTION || */
+/* Overview Text */
 .overview{
     font: normal 24px/32px "Poppins";
     color: #638898;
 }
 
+/* Line Titles*/
 .overview-titles{
     font: bold 24px/32px "DM Sans";
 }
 
+/* || PROBLEM AND SOLUTION SECTION || */
+/* Problem and Solution Text */
 .prob-sol{
     font: normal 24px/32px "Poppins";
     color: #2F2F2F;
 }
 
+/* Line Titles */
 .prob-sol-titles{
     font: bold 24px/32px "DM Sans";
     color: #FE938C;
 }
 
+/* || ROLE SECTION || */
+/* Role Text */
 .role{
     text-align: center;
 }
 
+
+/* || PROCESS SECTION || */
+/* Process Header */
 .process-header{
     border-color: #638898;
     background-color: #638898;
@@ -37,27 +51,33 @@
     text-align: center;
 }
 
+/* Process Text */
 .process-text{
     font: normal 24px/36px "Poppins";
     color: #2F2F2F;
     padding-top: 20px;
 }
 
+/* Line Titles */
 .process-titles{
     font-weight: bold;
     color: #D5AC4E;
 }
 
+/* Centering text */
 .center{
     text-align: center;
 }
 
+/* || RESEARCH SECTION || */
+/* Research Text */
 .research-text{
     font: normal 24px/36px "Poppins";
     color: #638898;
     padding-bottom: 72px;
 }
 
-.research-text{
+/* Line Titles */
+.research-titles{
     font-weight: bold;
 }
