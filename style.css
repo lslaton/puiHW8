@@ -85,8 +85,8 @@ html, body{
 /* Images in Project Boxes */
 .work-image{
     position: absolute;
-    width: 345px;
-    height: 152px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Text in Project Boxes */
@@ -98,7 +98,8 @@ html, body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 345px;
+    max-width: 345px;
+    height: auto;
     opacity: 0;
 }
 

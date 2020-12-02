@@ -18,6 +18,7 @@
 /* Line Titles*/
 .overview-titles{
     font: bold 24px/32px "DM Sans";
+    text-decoration: underline;
 }
 
 /* || PROBLEM AND SOLUTION SECTION || */
@@ -31,6 +32,7 @@
 .prob-sol-titles{
     font: bold 24px/32px "DM Sans";
     color: #FE938C;
+    text-decoration: underline;
 }
 
 /* || ROLE SECTION || */
@@ -62,6 +64,7 @@
 .process-titles{
     font-weight: bold;
     color: #D5AC4E;
+    text-decoration: underline;
 }
 
 /* Centering text */
@@ -80,4 +83,5 @@
 /* Line Titles */
 .research-titles{
     font-weight: bold;
+    text-decoration: underline;
 }
