@@ -22,31 +22,47 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg fixed-top">
+
+            <!-- Source: https://stackoverflow.com/questions/48320543/bootstrap-4-navbar-disappears-when-resizing-screen -->
+            <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-xs fixed-top">
                 <a class="navbar-brand" href="index.html">Lia Slaton</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
+                <!-- Source: https://stackoverflow.com/questions/39471469/bootstrap-navbar-collapse-button-not-showing -->
+                <nav class="navbar navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="index.html">Work<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">Work<span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#">Resume</a>
-                        <a class="nav-item nav-link active" href="#">About</a>
+                        <a class="nav-item nav-link" href="about.html">About</a>
                     </div>
+
                 </div>
             </nav>
         </div>
+
     </div>
 
     <!-- Image -->
     <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-4 about">
-            <img src="assets/images/about.png" alt="Lia Slaton">
+        <div class="col-lg-1 col-md-1 col-xs-1"></div>
+        <div class="col-lg-4 col-md-10 col-xs-10 about">
+            <img src="assets/images/about.png" alt="Lia Slaton" class="img-fluid">
 
             <!-- Education Section; help from https://stackoverflow.com/questions/16390370/how-can-i-get-a-bootstrap-column-to-span-multiple-rows -->
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-12 col-xs-12">
                     <h3 class="about-header">Education</h3>
                     <p class="about-subtext"><span class="organization">Washington University in St. Louis</span>- Class of 2018<br>
                         Bachelor of Arts in Philosophy-Neuroscience-Psychology with minors in English and Computer Science<br><br>
@@ -57,18 +73,17 @@
 
             <!-- Experience Section -->
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-12 col-xs-12">
                     <h3 class="about-header">Experience</h3>
                     <p class="about-subtext"><span class="organization">College Adviser</span><br>
                         Virginia College Advising Corps, 2018-2020<br>E.C. Glass High School in Lynchburg, VA<br>
                         Rappahannock County High School in Washington, VA</p>
                 </div>
-                <div class="col-lg-7"></div>
             </div>
         </div>
 
         <!-- About Info -->
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-10 col-xs-10">
             <p class="about">I pride myself on being something of a jack-of-all-trades; I couldn’t decide on one area to study, so I
                 landed on majoring in Philosophy-Neuroscience-Psychology with minors in computer science and English.
                 After finishing undergrad, I spent two years serving as a college adviser working with low-income,
@@ -82,7 +97,7 @@
                 memorized, retweeting every dog that comes across my timeline, and bothering people to help me improve
                 my Fantasy Football team.</p>
         </div>
-        <div class="col-lg-1"></div>
+        <div class="col-lg-1 col-md-1 col-xs-1"></div>
     </div>
 
 
