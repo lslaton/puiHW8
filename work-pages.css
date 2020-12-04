@@ -8,39 +8,46 @@
     padding-top: 86px;
 }
 
-/* || OVERVIEW SECTION || */
-/* Overview Text */
-.overview{
-    font: normal 24px/32px "Poppins";
-    color: #638898;
+/* || BODY TEXT || */
+.text {
+    font: normal 24px/36px "Poppins";
+    color: #2F2F2F;
 }
 
-/* Line Titles*/
+/* Centering text */
+.center{
+    text-align: center;
+}
+
+/* || OVERVIEW SECTION || */
+/* Titles in Overview Section*/
 .overview-titles{
     font: bold 24px/32px "DM Sans";
+    color: #638898;
     text-decoration: underline;
 }
 
 /* || PROBLEM AND SOLUTION SECTION || */
-/* Problem and Solution Text */
-.prob-sol{
-    font: normal 24px/32px "Poppins";
-    color: #2F2F2F;
+/* Adjusts alignment of text based on screen size */
+/* Credit to https://stackoverflow.com/questions/32011721/changing-text-alignment-with-page-size-bootstrap */
+@media (max-width: 992px) {
+    .center {
+        text-align: left;
+    }
 }
 
-/* Line Titles */
+/* Titles in Problem-Solution Section */
 .prob-sol-titles{
     font: bold 24px/32px "DM Sans";
     color: #FE938C;
     text-decoration: underline;
 }
 
-/* || ROLE SECTION || */
-/* Role Text */
-.role{
-    text-align: center;
+/* Formatting picture */
+.work-img {
+    width: 100%;
+    height: 100%;
 }
-
 
 /* || PROCESS SECTION || */
 /* Process Header */
@@ -53,35 +60,17 @@
     text-align: center;
 }
 
-/* Process Text */
-.process-text{
-    font: normal 24px/36px "Poppins";
-    color: #2F2F2F;
-    padding-top: 20px;
-}
-
-/* Line Titles */
+/* Titles in Process Section */
 .process-titles{
     font-weight: bold;
     color: #D5AC4E;
     text-decoration: underline;
 }
 
-/* Centering text */
-.center{
-    text-align: center;
-}
-
 /* || RESEARCH SECTION || */
-/* Research Text */
-.research-text{
-    font: normal 24px/36px "Poppins";
-    color: #638898;
-    padding-bottom: 72px;
-}
-
-/* Line Titles */
+/* Titles in Research Section */
 .research-titles{
+    color: #638898;
     font-weight: bold;
     text-decoration: underline;
 }

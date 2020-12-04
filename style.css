@@ -8,7 +8,8 @@ html, body{
 
 /* || ROW PADDING FOR GRID || */
 .row{
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* || NAVIGATION BAR || */
