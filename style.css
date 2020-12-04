@@ -77,6 +77,13 @@ html, body{
     height: 324px;
 }
 
+@media (max-width: 992px){
+    .work-box{
+        padding-bottom: 20px;
+        border-color: #FFFFFF;
+    }
+}
+
 /* Hover over Project Boxes */
 .work-box:hover{
     background-color: #D5AC4E;
