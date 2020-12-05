@@ -12,6 +12,11 @@ html, body{
     padding-bottom: 10px;
 }
 
+.work-row{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 /* || NAVIGATION BAR || */
 /* Nav Bar Background*/
 .navbar{
@@ -71,28 +76,34 @@ html, body{
 }
 
 /* Project Boxes */
-.work-box{
+
+.work-col{
     background-color: #638898;
-    border-color: #638898;
+    width: auto;
     height: 324px;
 }
 
-@media (max-width: 992px){
-    .work-box{
-        padding-bottom: 20px;
-        border-color: #FFFFFF;
-    }
-}
-
 /* Hover over Project Boxes */
-.work-box:hover{
+.work-col:hover{
     background-color: #D5AC4E;
     border-color: #D5AC4E;
 }
 
+/* Source: https://stackoverflow.com/questions/5061940/changing-the-child-elements-css-when-the-parent-is-hovered */
+.work-col:hover .work-text {
+    display: block;
+}
+
+/* Source: https://www.codeblocq.com/2016/05/Blur-Image-on-Hover-with-CSS/ */
+.work-col:hover .work-image{
+    filter: blur(2px);
+}
+
 /* Images in Project Boxes */
 .work-image{
-    position: absolute;
+    display: block;
+    margin: auto;
+    top: 86px;
     max-width: 100%;
     height: auto;
 }
@@ -101,14 +112,14 @@ html, body{
 .work-text{
     font: normal 36px/47px "DM Sans";
     color: #2F2F2F;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     max-width: 345px;
     height: auto;
-    opacity: 0;
+    display: none;
 }
 
 /* Hovering over Text in Project Boxes */
@@ -128,4 +139,9 @@ html, body{
     position: relative;
     display: block;
     margin: auto;
+}
+
+.footer-row{
+    padding-top: 20px;
+    padding-bottom: 0;
 }
