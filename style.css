@@ -13,8 +13,8 @@ html, body{
 }
 
 .work-row{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /* || NAVIGATION BAR || */
@@ -79,11 +79,12 @@ html, body{
 
 @media (max-width: 780px){
     .intro{
-        padding-bottom: 0px;
+        padding-bottom: 0;
         padding-top: 86px;
     }
     .intro-text{
-        padding-top: 086px;
+        padding-top: 0;
+        padding-bottom: 86px;
     }
 
     .work-col{
