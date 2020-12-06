@@ -83,10 +83,25 @@ html, body{
     height: 324px;
 }
 
+.left{
+    border-right: 1px solid #2F2F2F;
+}
+
+.right{
+    border-left: 1px solid #2F2F2F;
+}
+
+.bottom{
+    border-bottom: 1px solid #2F2F2F;
+}
+
+.top{
+    border-top: 1px solid #2F2F2F;
+}
+
 /* Hover over Project Boxes */
 .work-col:hover{
     background-color: #D5AC4E;
-    border-color: #D5AC4E;
 }
 
 /* Source: https://stackoverflow.com/questions/5061940/changing-the-child-elements-css-when-the-parent-is-hovered */
@@ -109,6 +124,7 @@ html, body{
 }
 
 /* Text in Project Boxes */
+/* Source: https://www.w3schools.com/css/css_align.asp */
 .work-text{
     font: normal 36px/47px "DM Sans";
     color: #2F2F2F;
