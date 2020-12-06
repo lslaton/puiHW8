@@ -61,12 +61,34 @@ html, body{
 /* Introduction Information*/
 /*Source: https://forum.freecodecamp.org/t/solved-why-is-my-navbar-covering-next-section-container/97897 */
 .intro{
-    padding-top: 173px;
-    padding-bottom: 172px;
+    padding-top: 86px;
     text-align: center;
     font: normal 48px/62px "DM Sans";
     color: #FE938C;
     height: auto;
+    width: 100%;
+}
+
+.intro-text{
+    margin: auto;
+}
+
+#lia-cartoon{
+    margin: auto;
+}
+
+@media (max-width: 780px){
+    .intro{
+        padding-bottom: 0px;
+        padding-top: 86px;
+    }
+    .intro-text{
+        padding-top: 086px;
+    }
+
+    .work-col{
+        border: 1px solid #2F2F2F;
+    }
 }
 
 /* || PROJECTS HEADER || */
