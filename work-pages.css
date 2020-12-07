@@ -15,8 +15,10 @@
 }
 
 /* Centering text */
+/* Source: https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html */
 .center{
     text-align: center;
+    list-style-position: inside;
 }
 
 .space {
