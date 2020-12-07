@@ -358,10 +358,25 @@
                 crossorigin="anonymous"></script>
 
         <script>
-            ScrollReveal().reveal(".page-title", {delay: 100})
-            ScrollReveal().reveal(".header-img", {delay: 100})
-            ScrollReveal().reveal(".overview", {delay: 200})
-            ScrollReveal().reveal(".row", {opacity:0, delay: 100})
+            ScrollReveal().reveal(".page-title", {
+                opacity: 0,
+                delay: 100,
+                easing: 'ease-in'
+            })
+            ScrollReveal().reveal(".header-img", {
+                opacity: 0,
+                delay: 100,
+                easing: 'ease-in'
+            })
+            ScrollReveal().reveal(".overview", {
+                opacity: 0,
+                delay: 200,
+                easing: 'ease-in'
+            })
+            ScrollReveal().reveal(".row", {
+                delay: 100,
+                easing: 'ease-in'
+            })
         </script>
     </body>
 </html>

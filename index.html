@@ -222,10 +222,24 @@
             crossorigin="anonymous"></script>
 
     <script>
-        ScrollReveal().reveal("#lia-cartoon", {opacity: 0})
-        ScrollReveal().reveal(".intro-text")
-        ScrollReveal().reveal("#projects")
-        ScrollReveal().reveal(".work-row", {opacity:0})
+        ScrollReveal().reveal("#lia-cartoon", {
+            opacity: 0,
+            delay: 200,
+            easing: 'ease-in'
+        })
+        ScrollReveal().reveal(".intro-text", {
+            opacity: 0,
+            delay: 200,
+            easing: 'ease-in'
+        })
+        ScrollReveal().reveal("#projects", {
+            opacity: 0,
+            delay: 400,
+            easing: 'ease-in'
+        })
+        ScrollReveal().reveal(".work-row", {
+            opacity:0,
+        })
     </script>
     </body>
 </html>

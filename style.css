@@ -62,7 +62,7 @@ html, body{
 /*Source: https://forum.freecodecamp.org/t/solved-why-is-my-navbar-covering-next-section-container/97897 */
 .intro{
     padding-top: 86px;
-    text-align: center;
+    text-align: left;
     font: normal 48px/62px "DM Sans";
     color: #FE938C;
     height: auto;
