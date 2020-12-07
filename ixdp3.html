@@ -17,6 +17,12 @@
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+        <!-- ScrollReveal JS Library: https://scrollrevealjs.org/ -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+
         <title>Lia Slaton- Data Dashboard</title>
     </head>
 
@@ -72,7 +78,8 @@
 
                 <!-- Header image -->
                 <div class="col-lg-10 col-md-12 col-xs-12">
-                    <img src="assets/images/ixdp3-header.png" alt="Data Dashboard" class="img-fluid work-page-img">
+                    <img src="assets/images/ixdp3-header.png" alt="Data Dashboard"
+                         class="img-fluid work-page-img header-img">
                 </div>
 
                 <div class="col-lg-1"></div>
@@ -86,7 +93,7 @@
                 <div class="col-lg-1"></div>
 
                 <!-- Overview text -->
-                <div class="col-lg-5 col-md-6 col-xs-12">
+                <div class="col-lg-5 col-md-6 col-xs-12 overview">
                     <p class="text"><span class="overview-titles">Overview</span><br>
                         In working with the hypothetical client, Adidas, our team created a data-driven dashboard
                         centered around customer experience to address the needs of three different personas. Our
@@ -95,7 +102,7 @@
                 </div>
 
                 <!-- Project Description text -->
-                <div class="col-lg-5 col-md-6 col-xs-12">
+                <div class="col-lg-5 col-md-6 col-xs-12 overview">
                     <p class="text"><span class="overview-titles">Project Details</span><br>
                         <span class="overview-titles">Context:</span> Interaction Design Studio 1, CMU<br>
                         <span class="overview-titles">Team:</span> Shai Bhardwaj, Eric Li, Zach Van Cleef,
@@ -362,5 +369,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
                 integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
                 crossorigin="anonymous"></script>
+
+        <script>
+            ScrollReveal().reveal(".page-title", {delay: 100})
+            ScrollReveal().reveal(".header-img", {delay: 100})
+            ScrollReveal().reveal(".overview", {delay: 200})
+            ScrollReveal().reveal(".row", {opacity:0, delay: 100})
+        </script>
     </body>
 </html>

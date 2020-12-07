@@ -51,7 +51,7 @@
 
 /* Formatting picture */
 .work-page-img {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 
