@@ -179,9 +179,29 @@ html, body{
     position: relative;
     display: block;
     margin: auto;
+    height: 90px;
 }
 
 .footer-row{
     padding-top: 20px;
     padding-bottom: 0;
+    background-color: #D5AC4E;
+}
+
+.footer-text{
+    font: normal 18px/28px "DM Sans";
+    color: #2F2F2F;
+    display: block;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.footer-text:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-margin{
+    background-color: #D5AC4E;
 }
