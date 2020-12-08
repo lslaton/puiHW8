@@ -28,20 +28,24 @@
 /* || OVERVIEW SECTION || */
 /* Titles in Overview Section*/
 .overview-titles{
-    font: bold 18px/24px "DM Sans";
-    color: #638898;
     text-decoration: underline;
 }
 
-/* || PROBLEM AND SOLUTION SECTION || */
-/* Adjusts alignment of text based on screen size */
-/* Credit to https://stackoverflow.com/questions/32011721/changing-text-alignment-with-page-size-bootstrap */
-@media (max-width: 992px) {
-    .center {
-        text-align: left;
-    }
+.overview-sections{
+    font: bold 18px/24px "DM Sans";
+    color: #638898;
 }
 
+.overview-link{
+    color: #FE938C;
+    text-decoration: underline;
+}
+
+.overview-link:hover{
+    color: #D5AC4E;
+}
+
+/* || PROBLEM AND SOLUTION SECTION || */
 /* Titles in Problem-Solution Section */
 .prob-sol-titles{
     font: bold 18px/24px "DM Sans";
@@ -53,6 +57,10 @@
 .work-page-img {
     width: 100%;
     height: auto;
+}
+
+.img-border{
+    border: 2px solid #2F2F2F;
 }
 
 .prototype-img {

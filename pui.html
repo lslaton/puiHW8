@@ -94,7 +94,7 @@
 
                 <!-- Overview text -->
                 <div class="col-lg-4 col-md-6 col-xs-12 overview">
-                    <p class="text"><span class="overview-titles">Overview</span><br>
+                    <p class="text"><span class="overview-sections overview-titles">Overview</span><br>
                         We were tasked with prototyping, testing, and implementing a site for a fictitious bakery,
                         Bun Bun Bake Shop in our Programming Usable Interfaces course. Using a combination of HTML,
                         CSS, and JavaScript, I created a site in which customers could add and remove items from their
@@ -103,9 +103,10 @@
 
                 <!-- Project Description text -->
                 <div class="col-lg-4 col-md-6 col-xs-12 overview">
-                    <p class="text"><span class="overview-titles">Project Details</span><br>
-                        <span class="overview-titles">Context:</span> Programming Usable Interfaces, CMU<br>
-                        <span class="overview-titles">Timeline:</span> September-October, 2020<br>
+                    <p class="text"><span class="overview-sections overview-titles">Project Details</span><br>
+                        <span class="overview-sections">Context:</span> Programming Usable Interfaces, CMU<br>
+                        <span class="overview-sections">Timeline:</span> September-October, 2020<br>
+                        <a href="https://github.com/lslaton/assignment_5" class="overview-link">GitHub Repository</a>
                     </p>
                 </div>
 
@@ -121,32 +122,17 @@
 
                 <div class="col-lg-8 col-md-12 col-xs-12">
                     <p class="text">
-                        <span class="prob-sol-titles">Problem</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu. <br><br>
+                        <span class="prob-sol-titles">Prompt</span><br>
+                        For our first major coding assignment, we set out to build a site from the ground-up, starting
+                        with prototypes and eventually working our way to a functioning site. In the final site, a user
+                        could select the flavor, glaze, quantity, and pickup option for cinnamon rolls and add them to
+                        the cart. Despite my computer science background, this was my first time working with with HTML,
+                        CSS, and JavaScript. How different could it be?
                     </p>
                 </div>
 
                 <div class="col-lg-2"></div>
             </div>
-
-            <!-- Solution Section -->
-            <div class="row">
-                <div class="col-lg-2"></div>
-
-                <div class="col-lg-8 col-md-12 col-xs-12">
-                    <p class="text">
-                        <span class="prob-sol-titles">Solution</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu.
-                    </p>
-                </div>
-
-                <div class="col-lg-2"></div>
-            </div>
-
 
             <!-- Prototype Image -->
             <div class="row">
@@ -154,8 +140,8 @@
 
                 <!-- Image -->
                 <div class="col-lg-8 col-md-6 col-xs-6">
-                    <img src="assets/images/pui-cart.png" alt="Bun Bun Bake Shop cart page"
-                         class="img-fluid work-page-img">
+                    <img src="assets/images/pui-prod-browsing.png" alt="Bun Bun Bake Shop Product Page"
+                         class="img-fluid work-page-img img-border">
                 </div>
 
                 <div class="col-lg-2"></div>
@@ -168,9 +154,11 @@
                 <!-- Reflection text -->
                 <div class="col-lg-8 col-md-12 col-xs-12 role">
                     <p class="text"><span class="prob-sol-titles">Reflection</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu.
+                        In short: it is very different.<br>
+                        My biggest challenges were in implementing the JavaScript functionality. Originally, I had a
+                        somewhat hack-y way to count the number of items added into the cart. I was able to eventually
+                        find a better solution, but it took a lot of debugging along the way to solve it (console.log()
+                        is my friend ❤️).
                     </p>
                 </div>
 
@@ -199,9 +187,10 @@
                 <!-- Paper Prototype text -->
                 <div class="col-lg-8 col-md-12 col-xs-12">
                     <p class="text"><span class="process-titles">Paper Prototypes</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu.
+                        The first step was to build paper prototypes of the home, product browsing, and product
+                        information pages. I tested them with various users as well as conducted competitive analysis
+                        to generate three iterations. I found that it’s best to keep it simple and straightforward in
+                        the layout and options given to users to minimize potential errors or confusion.
                     </p>
                 </div>
 
@@ -257,11 +246,13 @@
                 <!-- High Fidelity text -->
                 <div class="col-lg-8 col-md-12 col-xs-12">
                     <p class="text"><span class="process-titles">High-Fidelity Prototype</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu.
-                        Maecenas egestas dapibus mauris et aliquam. Proin venenatis imperdiet odio, in eleifend quam
-                        maximus a. Morbi rhoncus vitae nisl quis dignissim.
+                        Once the paper prototypes had been tested and gone through several iterations, it was time to
+                        create a high-fidelity prototype of the Bun Bun Bake Shop website. My foremost considerations
+                        were toward balancing customization options and error prevention. As a result, the prototype
+                        uses a simplified structure that is complemented by visual components that call to mind the
+                        light-hearted and informal mood of a bakery. The key takeaway of my design is that the
+                        straightforward structure and user actions in combination with the aesthetic design can work
+                        hand-in-hand to create a usable and enjoyable prototype.
                     </p>
                 </div>
 
@@ -273,7 +264,8 @@
 
                 <!-- High Fidelity image -->
                 <div class="col-lg-8 col-md-12 col-xs-12">
-                    <img src="assets/images/pui-hifi.png" alt="High fidelity prototype" class="img-fluid work-page-img">
+                    <img src="assets/images/pui-hifi.png" alt="High fidelity prototype"
+                         class="img-fluid work-page-img img-border">
                 </div>
 
                 <div class="col-lg-2"></div>
@@ -289,30 +281,13 @@
                 <!-- HTML & CSS text -->
                 <div class="col-lg-8 col-md-12 col-xs-12">
                     <p class="text"><span class="process-titles">HTML & CSS</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum. Aliquam id erat nunc.
-                        Duis sagittis nisi nec leo accumsan venenatis sit amet id enim. Quisque augue augue, rutrum in elit nec,
-                        venenatis maximus enim. Sed a magna arcu.
+                        When I had originally set out to code the HTML and CSS of the site, I was unfamiliar with the
+                        conventions and style guides to follow when formatting. With the help of classmates and a lot of
+                        Google searching, I was able to utilize a grid to help my layout and position elements.
+                        Additionally, I learned when and how to use divs effectively, which helped clean up my code
+                        and format pictures correctly.<br>See my GitHub repository link in the Overview section for the
+                        final code!
                     </p>
-                </div>
-
-                <div class="col-lg-2"></div>
-            </div>
-
-            <!-- Buffer Row -->
-            <div class="row space"></div>
-
-            <!-- Code Snippet Section -->
-            <div class="row">
-                <div class="col-lg-2 col-xs-3"></div>
-
-                <!-- HTML image -->
-                <div class="col-lg-4 col-md-6 col-xs-6">
-                    <img src="assets/images/pui-html.png" alt="HTML code snippet" class="img-fluid work-page-img">
-                </div>
-
-                <!-- CSS image -->
-                <div class="col-lg-4 col-md-6 col-xs-6">
-                    <img src="assets/images/pui-css.png" alt="CSS code snippet" class="img-fluid work-page-img">
                 </div>
 
                 <div class="col-lg-2"></div>
@@ -328,9 +303,11 @@
                 <!-- Javascript text -->
                 <div class="col-lg-8 col-md-12 col-xs-12 process-text">
                     <p class="text"><span class="process-titles">Javascript</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu.
+                        In order to implement the functionality of the site to customize cinnamon roll orders and add or
+                        remove them from the cart, I wrote Javascript functions using local storage and JSON objects. It
+                        involved a lot more Google searches and re-writing code when I realized there was a more
+                        efficient way to achieve the same end result. Ultimately, while it was challenging, it was
+                        incredibly satisfying when the functions worked the way they were supposed to!
                     </p>
                 </div>
 
@@ -347,9 +324,11 @@
                 <!-- Final Site text -->
                 <div class="col-lg-8 col-md-6 col-xs-12">
                     <p class="text"><span class="process-titles">Final Site</span><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel maximus ipsum.
-                        Aliquam id erat nunc. Duis sagittis nisi nec leo accumsan venenatis sit amet id enim.
-                        Quisque augue augue, rutrum in elit nec, venenatis maximus enim. Sed a magna arcu.
+                        Overall, I'm happy with my final site, especially as my first foray into the world of HTML, CSS,
+                        and Javascript. I learned to use the resources at my disposal to resolve issues that I came
+                        across, and to debug as much as possible. I think the design elements in combination with the
+                        functionality of selecting items and adding them to the cart helped create a site that is user-
+                        friendly and reflected the small-business, handmade feel of the bakery.
                     </p>
                 </div>
 
@@ -361,8 +340,8 @@
                 <div class="col-lg-2"></div>
 
                 <div class="col-lg-8 col-md-12 col-xs-12">
-                    <img src="assets/images/pui-final-site.png" alt="Bun Bun Bake Shop Final Site"
-                         class="img-fluid work-page-img">
+                    <img src="assets/images/pui-final.png" alt="Bun Bun Bake Shop Final Site"
+                         class="img-fluid work-page-img img-border">
                 </div>
 
                 <div class="col-lg-2"></div>
@@ -422,10 +401,25 @@
             crossorigin="anonymous"></script>
 
         <script>
-            ScrollReveal().reveal(".page-title", {delay: 100})
-            ScrollReveal().reveal(".header-img", {delay: 100})
-            ScrollReveal().reveal(".overview", {delay: 200})
-            ScrollReveal().reveal(".row", {opacity:0, delay: 100})
+            ScrollReveal().reveal(".page-title", {
+                opacity: 0,
+                delay: 100,
+                easing: 'ease-in'
+            })
+            ScrollReveal().reveal(".header-img", {
+                opacity: 0,
+                delay: 100,
+                easing: 'ease-in'
+            })
+            ScrollReveal().reveal(".overview", {
+                opacity: 0,
+                delay: 200,
+                easing: 'ease-in'
+            })
+            ScrollReveal().reveal(".row", {
+                delay: 100,
+                easing: 'ease-in'
+            })
         </script>
     </body>
 </html>
